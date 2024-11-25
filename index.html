@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="description" contents="This is a page about learning HTML"/>
     <title>UXD101 INTRODUCTION TO HTML</html></title>
-    <link href="/CSS/women.CSS" rel="stylesheet" type="text/CSS">
+    <link rel="stylesheet" type="text/css" href="css\women.css">
 </head>
+
 
 <header>
     <div class="container">
@@ -15,6 +16,10 @@
     </header>
 
 <body>
+    <div class="grid">
+<p class="col-third">Item one</p>
+<p class="col-twoThirds">Item two</p>
+</div>
     <main>
     <div class="container" >
     
@@ -22,9 +27,19 @@
         <H1>
 Breaking Barriers, Shaping Trends: Celebrating the Influence and Creativity of <span class="highlight">Women in Design.</span></H1> </div>
 </div>
-    <div class="container">
-   
+    <div class="container grid">
+    <div class=“grid-col-third">
+   <nav>
 </ul>
+    <h2>Contents</h2>
+   <ul>
+   <li><a href="#Elizabeth">ElizabethFriedländer</a></li>
+   <li><a href="#Paula">Paula Scher</a></li>
+   <li><a href="#Jessica">Jessica Hische</a></li>
+   </ul>
+   </nav>
+   </div>
+   <div class=“grid-col-twoThirds">
    <p class="large">Women have always played a pivotal role in the design
     landscape, shaping its evolution and pushing the boundaries 
     of innovation. This article shines a spotlight on three remarkable 
@@ -33,11 +48,6 @@ Breaking Barriers, Shaping Trends: Celebrating the Influence and Creativity of <
     pioneering work in typography to Scher's bold, iconic graphics that 
     challenge the status quo, and Hische's handcrafted lettering that 
     merges tradition with contemporary flair.</p>
-    <h2>Contents</h2>
-   <ul>
-   <li><a href="#Elizabeth">ElizabethFriedländer</a></li>
-   <li><a href="#Paula">Paula Scher</a></li>
-   <li><a href="#Jessica">Jessica Hische</a></li>
 
     <H2 id="Elizabeth" >Elizabeth Friedländer</H2>
     <p>Elizabeth Friedländer, a pioneering designer and typographer, 
@@ -74,7 +84,7 @@ Breaking Barriers, Shaping Trends: Celebrating the Influence and Creativity of <
       brand identity. Her use of large, bold lettering coupled with imaginative illustrations transformed the Public Theater's image, making 
       it a testament to the power of graphic design in shaping public perception and cultural institutions.</p>
 
-     <img src="Images/scher-publicTheater.webp" alt="Public Theater logo"> 
+     <img src="./Images/scher-publicTheater.webp" alt="Public Theater logo"> 
 
 <p>Scher's versatility as a designer is reflected in her diverse 
     body of work, which spans across various mediums such as branding,
@@ -108,7 +118,7 @@ Breaking Barriers, Shaping Trends: Celebrating the Influence and Creativity of <
         spans various mediums, from book covers and editorial designs to branding and advertising, demonstrating her versatility and skill in transforming
          words into captivating visual art.</p>
 
-         <img src="Images/Typography.webp"alt="Hische Drop Caps"> 
+         <img src="./Images/Typography.webp"alt="Hische Drop Caps"> 
 
     One of Hische's notable achievements is her expertise in the art of drop caps, where she reimagines and elevates the first letter of a text with intricate and ornate designs. Her mastery of typography shines through in these elaborate drop caps, which not only enhance the readability of the text but also serve as exquisite decorative elements, adding a touch of elegance and sophistication to the overall design. Hische's ability to infuse personality and emotion into her letterforms sets her apart, making her a sought-after designer for projects that require a unique and artistic approach to typography.
     
@@ -131,6 +141,7 @@ Breaking Barriers, Shaping Trends: Celebrating the Influence and Creativity of <
     
 <li><a href=https://creativecloud.adobe.com/discover/article/q-and-a-artist-jessica-hische>Adobe Q&A: Artist Jessica Hische </a></li><br>
 </ul>
+</div>
 </div>
 </main>
 <footer>
